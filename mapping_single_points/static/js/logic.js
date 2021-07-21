@@ -4,7 +4,7 @@ console.log("working");
 // Create the map object with a center of the United States and zoom level of 4 on a scale of 0-18
 let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 
-//  Add a marker to the map for Los Angeles, California.
+//  Add a 300-pixel radius circle to the map for Los Angeles, California.
 L.circleMarker([34.0522, -118.2437], {
     color: 'black',
     fillColor: '#FFFACD',
